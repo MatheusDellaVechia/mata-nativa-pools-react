@@ -6,7 +6,31 @@ const NaturePage = () => {
     {
       title: "Aventura Natural",
       description: "Explore a natureza e relaxe no rio Marmeleiro",
-      imageUrl: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      imageUrl: "../../natureza.jpeg",
+      features: [
+        "Trilhas ecológicas",
+        "Rio Marmeleiro",
+        "Área de descanso",
+        "Observação da fauna"
+      ],
+      color: "bg-green-600"
+    },
+    {
+      title: "Aventura Natural",
+      description: "Explore a natureza e relaxe no rio Marmeleiro",
+      imageUrl: "../../natureza2.jpeg",
+      features: [
+        "Trilhas ecológicas",
+        "Rio Marmeleiro",
+        "Área de descanso",
+        "Observação da fauna"
+      ],
+      color: "bg-green-600"
+    },
+    {
+      title: "Aventura Natural",
+      description: "Explore a natureza e relaxe no rio Marmeleiro",
+      imageUrl: "../../natureza3.jpeg",
       features: [
         "Trilhas ecológicas",
         "Rio Marmeleiro",

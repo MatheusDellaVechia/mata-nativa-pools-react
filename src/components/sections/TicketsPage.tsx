@@ -28,17 +28,17 @@ const TicketsPage = () => {
       price: "R$ 1200",
       features: [
         "Até 6 pessoas",
-        "2 quartos sxx",
-        "xxxxx"
+        "3 quartos e 1 banheiro",
+        "2 camas de casal e 2 camas de solteiro"
       ]
     },
     {
       type: "Chalé 2",
       price: "R$ 1200",
       features: [
-        "Até 6 pessoas",
-        "2 quartos sxx",
-        "xxxxx"
+        "Até 4 pessoas",
+        "2 quartos e 1 banheiro",
+        "uma cama de casal e duas de solteiro"
       ]
     }
   ];
@@ -98,11 +98,20 @@ const TicketsPage = () => {
               </div>
             </div>
           </div>
-          
+          \
+          {
+            
+          }
           <div className="mt-8 text-center">
+          <a
+          href="https://wa.me/554699116964"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
             <button className="bg-gradient-to-r from-green-500 to-green-600 text-white font-bold px-8 py-3 rounded-lg hover:from-green-600 hover:to-green-700 transition-all duration-200">
               Link do WhatsApp para Reserva
             </button>
+            </a>
           </div>
         </div>
       </div>

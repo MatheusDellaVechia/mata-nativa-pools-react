@@ -6,7 +6,31 @@ const PoolsPage = () => {
     {
       title: "Relaxe e refresque-se",
       description: "Várias opções de piscinas para todos os gostos",
-      imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      imageUrl: "../../p1.jpeg",
+      features: [
+        "Piscina olímpica",
+        "Piscina aquecida",
+        "Piscina infantil",
+        "Área de relaxamento"
+      ],
+      color: "bg-blue-500"
+    },
+    {
+      title: "Relaxe e refresque-se",
+      description: "Várias opções de piscinas para todos os gostos",
+      imageUrl: "../../p2.jpeg",
+      features: [
+        "Piscina olímpica",
+        "Piscina aquecida",
+        "Piscina infantil",
+        "Área de relaxamento"
+      ],
+      color: "bg-blue-500"
+    },
+    {
+      title: "Relaxe e refresque-se",
+      description: "Várias opções de piscinas para todos os gostos",
+      imageUrl: "../../p3.jpeg",
       features: [
         "Piscina olímpica",
         "Piscina aquecida",
@@ -38,19 +62,19 @@ const PoolsPage = () => {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Nossas Piscinas</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center bg-blue-50 p-6 rounded-lg">
-              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🏊‍♀️</span>
+              {/* <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-2xl">🏊‍♀️</span> */}
               </div>
-              <h3 className="text-xl font-bold text-blue-700 mb-2">Piscina Olímpica</h3>
-              <p className="text-gray-600">25 metros de comprimento para natação esportiva</p>
-            </div>
-            <div className="text-center bg-cyan-50 p-6 rounded-lg">
+              {/* <h3 className="text-xl font-bold text-blue-700 mb-2">Piscina Olímpica</h3>
+              <p className="text-gray-600">25 metros de comprimento para natação esportiva</p> */}
+            {/* </div> */}
+            {/* <div className="text-center bg-cyan-50 p-6 rounded-lg">
               <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">♨️</span>
-              </div>
-              <h3 className="text-xl font-bold text-cyan-700 mb-2">Piscina Aquecida</h3>
-              <p className="text-gray-600">Água aquecida para relaxamento em qualquer época</p>
-            </div>
+              </div> */}
+              {/* <h3 className="text-xl font-bold text-cyan-700 mb-2">Piscina Aquecida</h3>
+              <p className="text-gray-600">Água aquecida para relaxamento em qualquer época</p> */}
+            {/* </div> */}
             <div className="text-center bg-green-50 p-6 rounded-lg">
               <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">👶</span>

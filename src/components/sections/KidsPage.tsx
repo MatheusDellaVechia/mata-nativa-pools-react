@@ -6,7 +6,31 @@ const KidsPage = () => {
     {
       title: "Diversão para as crianças",
       description: "Espaço seguro para crianças de 2 a 10 anos",
-      imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      imageUrl: "../../infantil.jpeg",
+      features: [
+        "Mini tobogãs seguros",
+        "Piscina rasa",
+        "Brinquedos aquáticos",
+        "Supervisão especializada"
+      ],
+      color: "bg-green-500"
+    },
+    {
+      title: "Diversão para as crianças",
+      description: "Espaço seguro para crianças de 2 a 10 anos",
+      imageUrl: "../../infantil2.jpeg",
+      features: [
+        "Mini tobogãs seguros",
+        "Piscina rasa",
+        "Brinquedos aquáticos",
+        "Supervisão especializada"
+      ],
+      color: "bg-green-500"
+    },
+    {
+      title: "Diversão para as crianças",
+      description: "Espaço seguro para crianças de 2 a 10 anos",
+      imageUrl: "../../infantil3.jpeg",
       features: [
         "Mini tobogãs seguros",
         "Piscina rasa",

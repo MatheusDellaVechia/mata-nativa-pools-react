@@ -6,7 +6,7 @@ const HomePage = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            src="../../fundo.jpeg"
             alt="Mata Nativa"
             className="w-full h-full object-cover"
           />
@@ -20,9 +20,12 @@ const HomePage = () => {
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             Aventura, lazer e diversão em meio à natureza. Momentos inesquecíveis para toda a família!
           </p>
-          <button className="bg-white text-cyan-600 font-bold text-lg px-8 py-4 rounded-full hover:bg-gray-100 transition-all duration-200 hover:scale-105">
-            Visite Agora
-          </button>
+          <a href="https://wa.me/554699116964"
+          target="_blank" rel="noopener noreferrer" >
+            <button className="bg-white text-cyan-600 font-bold text-lg px-8 py-4 rounded-full hover:bg-gray-100 transition-all duration-200 hover:scale-105">
+              Visite Agora
+            </button>
+          </a>
         </div>
       </section>
 

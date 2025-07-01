@@ -21,15 +21,21 @@ const Header = ({ activeSection, onSectionChange }: HeaderProps) => {
 
   return (
     <header className="bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-              <span className="text-cyan-500 font-bold text-lg">MN</span>
-            </div>
-            <h1 className="text-white font-bold text-xl">Mata Nativa</h1>
+    <div className="container mx-auto px-4">
+      <div className="flex items-center justify-between h-16">
+        {/* Logo */}
+        <div className="flex items-center space-x-2">
+          {/* O container agora só define o tamanho */}
+          <div className="w-10 h-10">
+            <img 
+              src="../../logo.jpeg" 
+              alt="Logo"
+              // As classes de estilo são aplicadas diretamente na imagem
+              className="w-full h-full rounded-full object-cover" 
+            />
           </div>
+          <h1 className="text-white font-bold text-xl">Mata Nativa</h1>
+        </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">

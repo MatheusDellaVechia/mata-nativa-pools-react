@@ -4,9 +4,33 @@ import AttractionCard from '../AttractionCard';
 const TobogansPage = () => {
   const tobogans = [
     {
+      title: "Máxima adrenalina",
+      description: "Diversos tobogãs com diferentes níveis de adrenalina",
+      imageUrl: "../../toboga1.jpeg",
+      features: [
+        "Tobogã de alta velocidade",
+        "Tobogã familiar",
+        "Tobogã infantil",
+        "Supervisão especializada"
+      ],
+      color: "bg-cyan-400"
+    },
+    {
       title: "Adrenalina Máxima",
       description: "Diversos tobogãs com diferentes níveis de adrenalina",
-      imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      imageUrl: "../../toboga2.jpeg",
+      features: [
+        "Tobogã de alta velocidade",
+        "Tobogã familiar",
+        "Tobogã infantil",
+        "Supervisão especializada"
+      ],
+      color: "bg-cyan-400"
+    },
+    {
+      title: "Diversão garantida",
+      description: "Diversos tobogãs com diferentes níveis de adrenalina",
+      imageUrl: "../../infantil.jpeg",
       features: [
         "Tobogã de alta velocidade",
         "Tobogã familiar",
@@ -18,7 +42,7 @@ const TobogansPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-cyan-50 to-blue-100 py-20">
+    <div className="min-h-screen bg-gradient-to-b from-cyan-50 to-blue-150 py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-800 mb-6">Tobogãs</h1>
